@@ -8,7 +8,7 @@ function crteatePortfolioCard(project) {
       <PortfolioCard
         name={project.name}
         image={project.image}
-        project={project.project}
+        Github={project.Github}
         location={project.location}
       />
     </div>
@@ -18,8 +18,8 @@ function crteatePortfolioCard(project) {
 function Portfolio() {
   return (
     <div className=" portfolio-container rounded">
-      <h1 className="title-h1">Projects List</h1>
-      <p className="portfolio">{project.map(crteatePortfolioCard)}</p>
+      <h3>Projects List</h3>
+      <p>{project.map(crteatePortfolioCard)}</p>
     </div>
   );
 }
