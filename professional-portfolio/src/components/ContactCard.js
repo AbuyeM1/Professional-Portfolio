@@ -1,44 +1,61 @@
 import React from "react";
-import ContactPNG from "../assets/contact.png";
-import github from "../assets/github.png";
-import linkedin from "../assets/linkedin.png";
-import email from "../assets/email.png";
-import resume from "../assets/resume.png";
+import { motion } from "framer-motion";
 
-function ContactCard() {
+const Contact = () => {
   return (
-    <div className="contact-card">
-      <div className="card-content">
-        <h1 className="text-center">Contact Me</h1>
+    <motion.div
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.5 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div>
+        <h3 className="title">Contact</h3>
 
-        <img
-          src={ContactPNG}
-          alt="profile-photo"
-          className="contact-profile "
-        ></img>
+        <div className="first_section">
+          <p className="tc pb4">Want to get in touch?</p>
+          <a href="mailto:Abuyeye3@gmail.com" className="btn btn-outline-info">
+            Email Me
+          </a>
+        </div>
 
-        <footer>
-          <div className="socials">
-            <a
-              className="contact-img"
-              href="https://www.linkedin.com/in/abuye-mamuye-5a49921b0/"
-            >
-              <img src={linkedin} alt="Linkedin" />
-            </a>
-            <a target="_blank" href="https://github.com/AbuyeM1">
-              <img src={github} alt="Github" />
-            </a>
-            <a href="mailto:abuye20@yahoo.com">
-              <img src={email} alt="Email" />
-            </a>
-            <a href="https://drive.google.com/file/d/1lMZcQvq4RDS78WXkjAslJuHMlc9achwz/view?usp=sharing">
-              <img src={resume} alt="profile-photo"></img>
-            </a>
-          </div>
-        </footer>
+        <section>
+          <ul className="icons h1">
+            <li>
+              <a href="mailto:Abuyeye3@gmail.com" className="fas fa-envelope">
+                <br />
+              </a>
+              <p>email</p>
+            </li>
+            <li>
+              <a href="https://github.com/AbuyeM1" className="fab fa-github">
+                <br />
+              </a>
+              <p>github</p>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/abuye-mamuye-5a49921b0/"
+                className="fab fa-linkedin"
+              >
+                <br />
+              </a>
+              <p>linkedin</p>
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1jW1Q0hxQENzL2jQ4BploA2ac6frxrduz/view?usp=sharing"
+                className="fas fa-file"
+              >
+                <br />
+              </a>
+              <p>resume</p>
+            </li>
+          </ul>
+        </section>
       </div>
-    </div>
+    </motion.div>
   );
-}
+};
 
-export default ContactCard;
+export default Contact;
