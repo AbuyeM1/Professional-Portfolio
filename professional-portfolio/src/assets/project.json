@@ -5,7 +5,7 @@
         "id": "1",
         "name": "covid-19 Tracker",
         "image": "https://www.theborneopost.com/newsimages/2020/05/logo-covid-19-1.gif",
-        "project": "Project One",
+        "Github": "https://github.com/AbuyeM1/COVID-19-Tracker",
         "location": "https://abuyem1.github.io/COVID-19-Tracker/"
         
     },
@@ -13,29 +13,29 @@
         "id": "2",
         "name": "Code-Quiz",
         "image": "https://base.imgix.net/files/base/ebm/ecmweb/image/2020/07/quiz_logo_NiroDesign.5efdd7620c1b7.png?auto=format&fit=crop&h=432&w=768",
-        "project": "Assignment",
+        "Github": "https://github.com/AbuyeM1/Code-Quiz",
         "location": "https://abuyem1.github.io/Code-Quiz/"
     },
     {
         "id": "3",
         "name": "Password-Generator",
         "image": "https://static.dribbble.com/users/759254/screenshots/6574128/password-safe-toshare_2x.png",
-        "project": "Assignment",
+        "Github": "Assignhttps://github.com/AbuyeM1/Password-Generatorment",
         "location": "https://abuyem1.github.io/Password-Generator/"
     },
     {
         "id": "4",
-        "name": "Note-Taker",
-        "image": "https://tse3.mm.bing.net/th?id=OIP.FHDCl7IMAPm7_vhE0NEu8gHaHa&pid=Api&P=0&w=300&h=300",
-        "project": "Assignment",
-        "location":"https://sleepy-inlet-68851.herokuapp.com/"
+        "name": "Daily-Planner",
+        "image": "https://scheduleprintable.com/wp-content/uploads/2021/09/download-printable-daily-hourly-planner-with-flowers-pdf-1-722x1024.png",
+        "Github": "https://github.com/AbuyeM1/Daily-Planner",
+        "location":"https://abuyem1.github.io/Daily-Planner/"
         
     },
     {
         "id": "5",
         "name": "LoveConnect",
         "image": "https://media.istockphoto.com/photos/love-connection-picture-id496353186?k=6&m=496353186&s=170667a&w=0&h=WHRypi61igx-E-pR55eHOyrML49dxZSaaWa7IbD64Cc=",
-        "project": "Project Two",
+        "Github": "https://github.com/AbuyeM1/project-2-team-3 ",
         "location":"https://loveconnect14.herokuapp.com/"
         
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "name": "React Google Books",
         "image": "https://cdn.dribbble.com/users/80158/screenshots/578283/bookshelf_iphone_icon.png",
-        "project": "Assignment",
+        "Github": "https://github.com/AbuyeM1/React-Google-Books",
         "location":"https://react-googlebooksapi-search.herokuapp.com"
         
     },
@@ -51,7 +51,7 @@
         "id": "7",
         "name": "The Herald",
         "image": "https://cdn0.iconfinder.com/data/icons/iconshock-windows7-icons/256/world_info.png",
-        "project": "Project Three",
+        "Github": "https://github.com/AbuyeM1/The-Herald ",
         "location":"https://herald-worldnewapp.herokuapp.com/"
         
     }
