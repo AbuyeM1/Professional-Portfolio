@@ -30,6 +30,7 @@ function Skills() {
           <div className="skill-title" data-aos="fade-up">
             <h3>Skills</h3>
           </div>
+
           <div className="skills">
             <Container>
               <Row>

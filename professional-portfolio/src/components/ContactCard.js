@@ -25,13 +25,13 @@ const Contact = () => {
               <a href="mailto:Abuyeye3@gmail.com" className="fas fa-envelope">
                 <br />
               </a>
-              <p>email</p>
+              <p>Email</p>
             </li>
             <li>
               <a href="https://github.com/AbuyeM1" className="fab fa-github">
                 <br />
               </a>
-              <p>github</p>
+              <p>Github</p>
             </li>
             <li>
               <a
@@ -40,7 +40,7 @@ const Contact = () => {
               >
                 <br />
               </a>
-              <p>linkedin</p>
+              <p>Linkedin</p>
             </li>
             <li>
               <a
@@ -49,7 +49,7 @@ const Contact = () => {
               >
                 <br />
               </a>
-              <p>resume</p>
+              <p>Resume</p>
             </li>
           </ul>
         </section>

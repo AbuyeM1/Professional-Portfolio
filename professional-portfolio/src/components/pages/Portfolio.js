@@ -19,6 +19,7 @@ function Portfolio() {
   return (
     <div className=" portfolio-container rounded">
       <h3>Projects List</h3>
+      <hr />
       <p>{project.map(crteatePortfolioCard)}</p>
     </div>
   );

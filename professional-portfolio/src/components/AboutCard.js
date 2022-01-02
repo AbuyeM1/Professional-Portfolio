@@ -13,7 +13,7 @@ function AboutCard() {
       <div>
         <div className="about-container">
           <h3>About Me</h3>
-
+          <hr />
           <img
             src={Profile}
             alt="profile-photo"
@@ -49,8 +49,8 @@ function AboutCard() {
               <h6>
                 I am interested in learning about new opportunities and can be
                 reached through this portfolio, by email:
-                <a href="meilto:Abuye20@yahoo.com" style={{ color: "Red" }}>
-                  Abuye20@yahoo.com,
+                <a href="meilto:Abuyeye3@gmail.com" style={{ color: "Red" }}>
+                  Abuyeye3@gmail.com,
                 </a>
                 through
                 <a href="https://github.com/AbuyeM1" style={{ color: "Red" }}>
